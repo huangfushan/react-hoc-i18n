@@ -1,0 +1,20 @@
+{
+  "name": "react-i18n",
+  "author": "huangfushan",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huangfushan/react-i18n.git"
+  },
+
+  "keywords": [
+    "react",
+    "i18n"
+  ],
+  "dependencies": {
+    "react": ">=16.4.0"
+  },
+  "devDependencies": {
+  }
+}

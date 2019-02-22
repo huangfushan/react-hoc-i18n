@@ -1,6 +1,6 @@
 # 介绍
 * 多语言插件,默认版本中文，支持自定义拓展
-* 当前项目上传在github上，未再npm站点维护
+* 当前项目上传在github上，未在npm站点维护
 
 # 引入
 * 在 package.json 文件的 dependencies 中添加如下代码：

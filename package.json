@@ -2,19 +2,18 @@
   "name": "react-i18n",
   "author": "huangfushan",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/huangfushan/react-i18n.git"
   },
-
   "keywords": [
     "react",
     "i18n"
   ],
-  "dependencies": {
+  "peerDependencies": {
+    "lodash.merge": ">=4.6.1",
+    "prop-types": ">=15.7.2",
     "react": ">=16.4.0"
-  },
-  "devDependencies": {
   }
 }

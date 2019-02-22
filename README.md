@@ -1,14 +1,10 @@
 # 介绍
 * 多语言插件,默认版本中文，支持自定义拓展
-* 当前项目上传在github上，未在npm站点维护
 
-# 引入
-* 在 package.json 文件的 dependencies 中添加如下代码：
+# npm
   ```
-  "react-i18n": "git+https://github.com/huangfushan/react-i18n.git#semver:*.*.*"
+  npm install --save react-hoc-i18n
   ```
-  * `semver:*.*.*`指版本号，如`semver:0.1.0`
-* 然后执行 npm i
 
 # 使用
 * 在根目录App.js文件中
@@ -55,7 +51,7 @@
   ```
 
 # 拓展
-  * react-i8n提供两个方法，I18nProvider,I18nConnect
+  * react-i18n提供两个方法，I18nProvider,I18nConnect
     * `I18nProvider`提供者，是一个react组件，包裹在跟组件外层，i18n数据会通过context形式传递给其 `I18nProvider`的子组件。
       目前提供中英两语言版本，`中文cn`和`英文en`，在引用时需要指明环境语言版本language，默认`中文cn`。
       ```

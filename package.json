@@ -1,11 +1,11 @@
 {
-  "name": "react-i18n",
+  "name": "react-hoc-i18n",
   "author": "huangfushan",
   "version": "0.1.0",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/huangfushan/react-i18n.git"
+    "url": "https://github.com/huangfushan/react-hoc-i18n.git"
   },
   "keywords": [
     "react",
@@ -15,5 +15,6 @@
     "lodash.merge": ">=4.6.1",
     "prop-types": ">=15.6.0",
     "react": ">=16.4.0"
-  }
+  },
+  "license": "ISC"
 }
